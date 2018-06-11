@@ -8,9 +8,9 @@
     [opened]="!(isHandset | async)!.matches">
     <mat-toolbar color="primary">Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="/first-page">First Page</a>
-      <a mat-list-item href="/data-table">Second Page</a>
-      <a mat-list-item href="/data-dashboard">Third Page</a>
+      <a mat-list-item routerLink="/first-page">First Page</a>
+      <a mat-list-item routerLink="/data-table">Second Page</a>
+      <a mat-list-item routerLink="/data-dashboard">Third Page</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
